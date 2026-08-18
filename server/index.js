@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 
-const PUBLIC = path.join(__dirname, '../public');
+const PUBLIC = path.join(__dirname, '../docs');
 const DATA = path.join(__dirname, 'data');
 
 // --- Data helpers ---
