@@ -1,0 +1,17 @@
+# Static deploy of the two Roeder storefronts.
+# No build step: the app is vanilla JS and the demo data ships as JSON in
+# docs/data, which the front end reads directly when no Express API is present.
+
+[build]
+  publish = "docs"
+  command = ""
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/*/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
