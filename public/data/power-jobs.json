@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rop-1",
+    "title": "Small Engine Technician",
+    "department": "Service",
+    "type": "Full-Time",
+    "datePosted": "2026-08-04T14:00:00.000Z",
+    "description": "Diagnose and repair lawn tractors, zero turn mowers, and utility vehicles across John Deere, Kubota, Cub Cadet, Exmark, and STIHL product lines.\n\nWe provide factory training, a clean and well-equipped shop, and a full set of diagnostic tools. Two or more years of small engine experience preferred, though we will train the right candidate.\n\nCompetitive hourly wage, health insurance, paid holidays, and an employee purchase program."
+  },
+  {
+    "id": "rop-2",
+    "title": "Parts Counter Associate",
+    "department": "Parts",
+    "type": "Full-Time",
+    "datePosted": "2026-08-08T15:30:00.000Z",
+    "description": "Help customers find the right part the first time. You will work the counter and phones, look up parts across sixty-plus brands, manage stock levels, and coordinate special orders.\n\nStrong customer service skills matter more than prior parts experience. Familiarity with outdoor power equipment is a plus.\n\nMonday through Friday with rotating Saturday mornings."
+  },
+  {
+    "id": "rop-3",
+    "title": "Seasonal Setup & Delivery Driver",
+    "department": "Sales",
+    "type": "Part-Time",
+    "datePosted": "2026-08-11T13:00:00.000Z",
+    "description": "Assemble new mowers and tractors for delivery, load and unload equipment, and deliver to customers across the tri-state area.\n\nValid driver license required; trailer towing experience preferred. Spring and summer hours with the possibility of year-round work."
+  }
+]

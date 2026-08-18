@@ -1,0 +1,22 @@
+node_modules/
+.DS_Store
+*.log
+
+# scraper working files — not part of the app
+*.cjs
+scrape-*.mjs
+get-images.mjs
+*_raw.html
+rendered_search.html
+ajax_response.html
+debug_*.png
+extracted_items.json
+aggregate_category_data.json
+parts_*.json
+scraped_inventory.json
+search_page_raw.html
+Pricing_Guide.doc
+
+# separate Expo project, tracked in its own repo
+roeder_mobile/
+invoice/

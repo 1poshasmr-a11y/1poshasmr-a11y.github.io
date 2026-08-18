@@ -1,0 +1,108 @@
+[
+  {
+    "id": "ROP-4471",
+    "customerName": "Mark Ellison",
+    "customerPhone": "555-2210",
+    "equipment": "John Deere X380",
+    "issue": "Deck belt squeal and uneven cut height",
+    "currentStep": 4,
+    "estimatedCompletion": "2026-08-18",
+    "timeline": [
+      {
+        "step": 1,
+        "title": "Received",
+        "status": "completed",
+        "date": "2026-08-13 08:40 AM",
+        "notes": "Dropped off at the service counter."
+      },
+      {
+        "step": 2,
+        "title": "Diagnosed",
+        "status": "completed",
+        "date": "2026-08-13 01:20 PM",
+        "notes": "Worn deck belt and a seized idler pulley."
+      },
+      {
+        "step": 3,
+        "title": "Parts Ordered",
+        "status": "completed",
+        "date": "2026-08-13 02:05 PM",
+        "notes": "Belt and idler in stock at the counter."
+      },
+      {
+        "step": 4,
+        "title": "In Progress",
+        "status": "active",
+        "date": "2026-08-15 09:10 AM",
+        "notes": "Belt replaced, leveling the deck now."
+      },
+      {
+        "step": 5,
+        "title": "Quality Check",
+        "status": "pending",
+        "date": null,
+        "notes": ""
+      },
+      {
+        "step": 6,
+        "title": "Ready for Pickup",
+        "status": "pending",
+        "date": null,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "ROP-4488",
+    "customerName": "Dana Whitmore",
+    "customerPhone": "555-7734",
+    "equipment": "Kubota RTV-X1100C",
+    "issue": "Annual service and hydraulic inspection",
+    "currentStep": 2,
+    "estimatedCompletion": "2026-08-20",
+    "timeline": [
+      {
+        "step": 1,
+        "title": "Received",
+        "status": "completed",
+        "date": "2026-08-14 03:15 PM",
+        "notes": "Scheduled for annual service."
+      },
+      {
+        "step": 2,
+        "title": "Diagnosed",
+        "status": "active",
+        "date": "2026-08-15 11:00 AM",
+        "notes": "Running full inspection checklist."
+      },
+      {
+        "step": 3,
+        "title": "Parts Ordered",
+        "status": "pending",
+        "date": null,
+        "notes": ""
+      },
+      {
+        "step": 4,
+        "title": "In Progress",
+        "status": "pending",
+        "date": null,
+        "notes": ""
+      },
+      {
+        "step": 5,
+        "title": "Quality Check",
+        "status": "pending",
+        "date": null,
+        "notes": ""
+      },
+      {
+        "step": 6,
+        "title": "Ready for Pickup",
+        "status": "pending",
+        "date": null,
+        "notes": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "WO-8832",
+    "customerName": "John Doe",
+    "customerPhone": "555-0192",
+    "equipment": "Case IH Magnum 340",
+    "issue": "Hydraulic leak on remote 3",
+    "currentStep": 4,
+    "estimatedCompletion": "2026-08-12",
+    "timeline": [
+      { "step": 1, "title": "Received", "status": "completed", "date": "2026-08-08 09:15 AM", "notes": "Dropped off by customer." },
+      { "step": 2, "title": "Diagnosed", "status": "completed", "date": "2026-08-08 02:30 PM", "notes": "Found blown O-ring in coupler block." },
+      { "step": 3, "title": "Parts Ordered", "status": "completed", "date": "2026-08-08 03:00 PM", "notes": "O-ring kit ordered from depot." },
+      { "step": 4, "title": "In Progress", "status": "active", "date": "2026-08-10 08:00 AM", "notes": "Tech is installing new seals." },
+      { "step": 5, "title": "Quality Check", "status": "pending", "date": null, "notes": "" },
+      { "step": 6, "title": "Ready for Pickup", "status": "pending", "date": null, "notes": "" }
+    ]
+  },
+  {
+    "id": "WO-8835",
+    "customerName": "Sarah Miller",
+    "customerPhone": "555-8831",
+    "equipment": "Kubota M7-172",
+    "issue": "Routine 500hr service",
+    "currentStep": 1,
+    "estimatedCompletion": "2026-08-15",
+    "timeline": [
+      { "step": 1, "title": "Received", "status": "active", "date": "2026-08-10 10:00 AM", "notes": "Scheduled for service this week." },
+      { "step": 2, "title": "Diagnosed", "status": "pending", "date": null, "notes": "" },
+      { "step": 3, "title": "Parts Ordered", "status": "pending", "date": null, "notes": "" },
+      { "step": 4, "title": "In Progress", "status": "pending", "date": null, "notes": "" },
+      { "step": 5, "title": "Quality Check", "status": "pending", "date": null, "notes": "" },
+      { "step": 6, "title": "Ready for Pickup", "status": "pending", "date": null, "notes": "" }
+    ]
+  }
+]

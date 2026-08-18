@@ -1,0 +1,169 @@
+{
+  "about": {
+    "heading": "Family owned since 1957",
+    "body": [
+      "Welcome to Roeder Outdoor Power, a family owned and operated dealership operating since 1957 located in Dubuque, Iowa. Our annual sales of new lawn tractors, garden tractors, and zero turn mowers exceed seven hundred units. This large number of sales generates a great selection of used equipment to choose from. Each April we feature an auction which contains over one hundred units all sold with no reserve. Roeder Outdoor Power carries a large variety of makes and models and offers a full line of service on every brand including:"
+    ],
+    "brands": [
+      "John Deere",
+      "Kubota",
+      "Cub Cadet",
+      "Exmark",
+      "Honda",
+      "STIHL",
+      "Frontier",
+      "Land Pride",
+      "Doolittle Trailers",
+      "Green Mountain Grills"
+    ]
+  },
+  "contact": {
+    "address": "2580 Rockdale Road, Dubuque, IA 52003",
+    "phone": "563-556-2071",
+    "tollFree": "800-942-4673",
+    "hours": [
+      [
+        "Mon – Fri",
+        "8:00 AM – 5:00 PM"
+      ],
+      [
+        "Saturday",
+        "8:00 AM – 12:00 PM"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "intro": "Welcome to Roeder Outdoor Power located in Dubuque, Iowa. We have a great selection of new and used Lawn Tractors, Garden Tractors, Zero Turn Mowers, Compact Tractors, and UTVs to choose from."
+  },
+  "departments": [
+    {
+      "key": "sales",
+      "icon": "🚜",
+      "name": "Sales",
+      "body": "Our sales team at Roeder Outdoor Power takes great pride in going the extra mile for our customers. Our sales specialists are up-to-date on the latest information in a continuous training program to further their skills and knowledge base in order to better serve our customers. They are well qualified to help you choose the right equipment for your lawn and garden needs. Please visit our showroom and meet with our sales team who will answer any questions you may have regarding the purchase of the new or used equipment that’s right for you.",
+      "bullets": [
+        "Casey Steines Ph: 563-556-2071 Email",
+        "Nathan Rentz Email",
+        "Jerry Fassbinder Ph: 563-556-2071 Email"
+      ]
+    },
+    {
+      "key": "service",
+      "icon": "🔧",
+      "name": "Service",
+      "body": "Roeder Outdoor Power’s Service Department proudly serves the Tri-State area of Illinois, Iowa and Wisconsin. Backed by over 30 years of technical experience bringing professionalism and quality workmanship to our customers. Our service department is staffed with trained technicians who will service all makes of equipment. Estimates are provided for all repairs before work is completed.",
+      "bullets": [
+        "Maintenance Schedules Learn More",
+        "Warranty Learn More",
+        "Safety Learn More",
+        "Seasonal Tips Learn More",
+        "Prior Products Learn More",
+        "Operator Manuals Learn More"
+      ]
+    },
+    {
+      "key": "parts",
+      "icon": "⚙️",
+      "name": "Parts",
+      "body": "At Roeder Outdoor Power, we are committed to delivering the highest quality parts with industry-leading customer service. We proudly serve the Tri-State area of Wisconsin, Iowa and Illinois with a wide selection of parts from Kubota, John Deere, STIHL, Honda, Cub Cadet, Exmark, Frontier, Land Pride and many more.",
+      "bullets": [
+        "Browse All Parts",
+        "Parts By Brand",
+        "Parts By Category",
+        "Kubota Parts Lookup",
+        "Parts Ph: 563-556-2071 Email"
+      ]
+    },
+    {
+      "key": "finance",
+      "icon": "💳",
+      "name": "Kubota Finance",
+      "body": "Kubota Dealers can tailor a variety of finance programs to meet the specific requirements of their customers. Through Kubota Credit Corporation, USA (KCC) or Kubota Leasing, competitive interest rates, flexible down payments and multiple payment terms are available",
+      "bullets": [
+        "Special Offers Find the latest deals, incentives, rebates and special offers available at your local participating Kubota dealer. View Special Offers",
+        "Standard Rates Are you looking to finance the purchase of your new Kubota Tractor? View our standard finance rates and terms. View Rates"
+      ]
+    },
+    {
+      "key": "toys",
+      "icon": "🧸",
+      "name": "Toy Department",
+      "body": "At Roeder Outdoor Power, you will find genuine Kubota toys as well as John Deere, STIHL Trimmers, and Chainsaw toys that are just right for any size farmer on your list. The featured gifts are top-quality, best sellers and designed for durability just like all the products we sell.",
+      "bullets": []
+    }
+  ],
+  "employment": {
+    "body": "Due to rapid growth, we have an immediate need for ambitious, hard working, dependable individuals to join our team. Benefits include vacation, retirement, paid holidays, overtime, and more! Please check out our available jobs below and feel free to apply online or submit your resume."
+  },
+  "partsBrands": [
+    "Browse Parts",
+    "Show All Brands",
+    "A & I PRODUCTS\n\t\t\t\t\t\t\t\t\t\t\t\t (10)",
+    "ACI DISTRIBUTORS\n\t\t\t\t\t\t\t\t\t\t\t\t (1)",
+    "AG EXPRESS\n\t\t\t\t\t\t\t\t\t\t\t\t (2)",
+    "ALL STATES AG PARTS\n\t\t\t\t\t\t\t\t\t\t\t\t (3)",
+    "ALLTECH PRO, LLC.\n\t\t\t\t\t\t\t\t\t\t\t\t (3)",
+    "ANDERSON **ACH\n\t\t\t\t\t\t\t\t\t\t\t\t (36)",
+    "BALZER INC.\n\t\t\t\t\t\t\t\t\t\t\t\t (3)",
+    "BARRON MOTOR SUPPLY\n\t\t\t\t\t\t\t\t\t\t\t\t (1)",
+    "BATTERIES PLUS BULBS\n\t\t\t\t\t\t\t\t\t\t\t\t (1)",
+    "BERLON INDUSTRIES\n\t\t\t\t\t\t\t\t\t\t\t\t (3)",
+    "BRINLY-HARDY COMPANY\n\t\t\t\t\t\t\t\t\t\t\t\t (5)",
+    "CAM'S JAX WAX\n\t\t\t\t\t\t\t\t\t\t\t\t (57)",
+    "CAMSO USA INC.\n\t\t\t\t\t\t\t\t\t\t\t\t (3)",
+    "CARLISLE TIRE-MEDART\n\t\t\t\t\t\t\t\t\t\t\t\t (15)",
+    "CASE CORPORATION\n\t\t\t\t\t\t\t\t\t\t\t\t (6683)",
+    "CASE STD HARDWARE\n\t\t\t\t\t\t\t\t\t\t\t\t (195)",
+    "COOLANTS PLUS, INC.\n\t\t\t\t\t\t\t\t\t\t\t\t (2)",
+    "CRARY INDUSTRIES, INC\n\t\t\t\t\t\t\t\t\t\t\t\t (21)",
+    "CURTIS INDUSTRIES LLC\n\t\t\t\t\t\t\t\t\t\t\t\t (6)",
+    "D B ELECTRICAL\n\t\t\t\t\t\t\t\t\t\t\t\t (5)",
+    "DEPCO\n\t\t\t\t\t\t\t\t\t\t\t\t (4)",
+    "DOOLITTLE TRAILER MFG\n\t\t\t\t\t\t\t\t\t\t\t\t (42)",
+    "DULTMEIER SALES\n\t\t\t\t\t\t\t\t\t\t\t\t (5)",
+    "EXMARK MFG CO\n\t\t\t\t\t\t\t\t\t\t\t\t (145)",
+    "FRONTIER EQUIPMENT\n\t\t\t\t\t\t\t\t\t\t\t\t (4)",
+    "GROUSER PRODUCTS, INC.\n\t\t\t\t\t\t\t\t\t\t\t\t (1)",
+    "H&S MFG. CO., INC.\n\t\t\t\t\t\t\t\t\t\t\t\t (69)",
+    "HAMILTON SYSTEMS\n\t\t\t\t\t\t\t\t\t\t\t\t (77)",
+    "HARDI\n\t\t\t\t\t\t\t\t\t\t\t\t (283)",
+    "HAULOTTE US INC\n\t\t\t\t\t\t\t\t\t\t\t\t (6)",
+    "HOVDEN OIL\n\t\t\t\t\t\t\t\t\t\t\t\t (4)",
+    "IHLE FABRICATIONS LLC\n\t\t\t\t\t\t\t\t\t\t\t\t (1)",
+    "IMPERIAL SUPPLIES LLC\n\t\t\t\t\t\t\t\t\t\t\t\t (3)",
+    "JOHN DAY COMPANY\n\t\t\t\t\t\t\t\t\t\t\t\t (46)",
+    "JOHN DEERE\n\t\t\t\t\t\t\t\t\t\t\t\t (3785)",
+    "JOHN DEERE GIFTS\n\n\t\t\t\t\t\t\t\t\t\t\t\t (2)",
+    "KOHLER - MEDART\n\n\t\t\t\t\t\t\t\t\t\t\t\t (105)",
+    "LAND PRIDE\n\n\t\t\t\t\t\t\t\t\t\t\t\t (40)",
+    "LIQUITUBE\n\n\t\t\t\t\t\t\t\t\t\t\t\t (2)",
+    "MACHINE ATTACH.\n\n\t\t\t\t\t\t\t\t\t\t\t\t (5)",
+    "MARTIN WHEEL-MEDART\n\n\t\t\t\t\t\t\t\t\t\t\t\t (19)",
+    "MARTIN-TILL\n\n\t\t\t\t\t\t\t\t\t\t\t\t (2)",
+    "MI-T-M CORPORATION\n\n\t\t\t\t\t\t\t\t\t\t\t\t (70)",
+    "MISC O.D.P.\n\n\t\t\t\t\t\t\t\t\t\t\t\t (37)",
+    "MISC PARTS VENDORS\n\n\t\t\t\t\t\t\t\t\t\t\t\t (74)",
+    "NAPA AUTO PARTS\n\n\t\t\t\t\t\t\t\t\t\t\t\t (59)",
+    "NORTH STATE SALES CO.\n\n\t\t\t\t\t\t\t\t\t\t\t\t (8)",
+    "OREGON-MEDART\n\n\t\t\t\t\t\t\t\t\t\t\t\t (170)",
+    "PARTS AUTHORITY-IWI\n\n\t\t\t\t\t\t\t\t\t\t\t\t (56)",
+    "PRICE BROS. EQUIP.\n\n\t\t\t\t\t\t\t\t\t\t\t\t (7)",
+    "PRIOR DISTRIBUTING\n\n\t\t\t\t\t\t\t\t\t\t\t\t (79)",
+    "RAINBO OIL COMPANY\n\n\t\t\t\t\t\t\t\t\t\t\t\t (2)",
+    "SMA-MIDWEST\n\n\t\t\t\t\t\t\t\t\t\t\t\t (22)",
+    "SPARK PLUGS\n\n\t\t\t\t\t\t\t\t\t\t\t\t (43)",
+    "STEELE AUTO\n\n\t\t\t\t\t\t\t\t\t\t\t\t (1)",
+    "STIHL\n\n\t\t\t\t\t\t\t\t\t\t\t\t (840)",
+    "SUPERIOR TECH INC\n\n\t\t\t\t\t\t\t\t\t\t\t\t (18)",
+    "TECUMSEH-MEDART\n\n\t\t\t\t\t\t\t\t\t\t\t\t (78)",
+    "TERMINAL MAN INC\n\n\t\t\t\t\t\t\t\t\t\t\t\t (7)",
+    "TORO\n\n\t\t\t\t\t\t\t\t\t\t\t\t (89)",
+    "VIRNIG MANUFACTURING\n\n\t\t\t\t\t\t\t\t\t\t\t\t (19)",
+    "WALBORO-MEDART\n\n\t\t\t\t\t\t\t\t\t\t\t\t (3)",
+    "WIEDMANN BROS DIST CO\n\n\t\t\t\t\t\t\t\t\t\t\t\t (4)",
+    "WIESE INDUSTRIES\n\n\t\t\t\t\t\t\t\t\t\t\t\t (4)",
+    "ZAMA-MEDART\n\n\t\t\t\t\t\t\t\t\t\t\t\t (3)"
+  ]
+}
