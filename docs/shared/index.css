@@ -312,6 +312,9 @@ textarea.form-control { resize: vertical; min-height: 120px; }
   align-items: center;
   gap: 4px;
 }
+.nav-actions { display: flex; align-items: center; gap: 8px; margin-left: 4px; }
+.chev { display: inline-block; transition: transform var(--transition); font-size: 0.8em; }
+.nav-actions .btn-primary { color: #fff; }
 
 .nav-links a {
   padding: 8px 14px;
@@ -836,47 +839,96 @@ textarea.form-control { resize: vertical; min-height: 120px; }
   .container { padding: 0 16px; }
   .section { padding: 56px 0; }
   .section-title { font-size: 1.8rem; margin-bottom: 28px; }
+  /* ── Mobile menu ──────────────────────────────────────────────
+     One row height for every entry, left aligned, hairline separated.
+     Actions sit apart at the bottom so navigating and converting don't
+     look like the same kind of thing. */
+
+  .nav-container { justify-content: flex-start; }
+
   .nav-links { display: none; }
   .nav-links.open {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     position: absolute;
     top: var(--nav-height);
     left: 0;
     width: 100%;
+    max-height: calc(100dvh - var(--nav-height));
+    overflow-y: auto;
+    overscroll-behavior: contain;
     background: rgba(10,10,10,0.97);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    padding: 16px 24px 24px;
+    padding: 4px 20px 22px;
     border-bottom: 1px solid var(--glass-border);
-    gap: 4px;
+    gap: 0;
   }
-  .nav-links.open a {
-    padding: 12px 16px;
-    border-radius: var(--border-radius-sm);
+
+  /* every top-level row measures the same */
+  .nav-links.open > a:not(.btn),
+  .nav-links.open .nav-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 52px;
+    padding: 0 4px;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.07);
+    font-size: 1.02rem;
   }
-  
+  .nav-links.open > a:not(.btn):hover,
+  .nav-links.open .nav-dropdown-toggle:hover { background: transparent; }
+
+  .nav-links.open > .nav-dropdown { display: block; }
+
+  /* the centred underline doesn't work in a stacked list */
+  .nav-links.open > a.active::after { display: none; }
+  .nav-links.open > a.active {
+    color: #fff;
+    box-shadow: inset 3px 0 0 var(--case-red);
+    padding-left: 12px;
+  }
+
+  /* submenu, clearly subordinate */
   .nav-dropdown-content {
     position: static;
     display: none;
-    background: transparent;
+    background: rgba(255,255,255,0.03);
     border: none;
     box-shadow: none;
-    padding: 4px 0 4px 16px;
-    margin-top: 0;
+    padding: 4px 0;
+    margin: 0;
     min-width: 100%;
-    border-left: 2px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.07);
   }
-  
   .nav-dropdown-content a {
-    padding: 10px 16px;
-  }
-  
-  .nav-dropdown.open .nav-dropdown-content {
+    min-height: 44px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    padding: 0 16px 0 22px;
+    font-size: 0.94rem;
+    color: var(--text-muted);
   }
-  
+  .nav-dropdown.open .nav-dropdown-content { display: flex; flex-direction: column; }
+  .nav-dropdown.open > .nav-dropdown-toggle { color: #fff; border-bottom-color: transparent; }
+  .nav-dropdown.open > .nav-dropdown-toggle .chev { transform: rotate(180deg); }
+
+  /* actions: full width, stacked, set apart from the list */
+  .nav-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin: 22px 0 0;
+  }
+  .nav-actions .btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 50px;
+    font-size: 1rem;
+  }
+
   .mobile-menu-btn { display: flex; }
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
   .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
