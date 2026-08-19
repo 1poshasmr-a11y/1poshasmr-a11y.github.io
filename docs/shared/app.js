@@ -95,12 +95,12 @@ const setupMobileMenu = () => {
     const links = document.getElementById('navLinks');
     if (!btn || !links) return;
 
-    const closedIcon = btn.dataset.icon || '🚜';
+    const setOpen = (open) => {
+        links.classList.toggle('open', open);
+        btn.setAttribute('aria-expanded', String(open));
+    };
 
-    btn.addEventListener('click', () => {
-        links.classList.toggle('open');
-        btn.textContent = links.classList.contains('open') ? '✕' : closedIcon;
-    });
+    btn.addEventListener('click', () => setOpen(!links.classList.contains('open')));
 
     // Dropdowns open on tap rather than hover once we're on a phone
     document.querySelectorAll('.nav-dropdown-toggle').forEach(toggle => {
@@ -114,8 +114,7 @@ const setupMobileMenu = () => {
 
     links.querySelectorAll('a:not(.nav-dropdown-toggle)').forEach(link => {
         link.addEventListener('click', () => {
-            links.classList.remove('open');
-            btn.textContent = closedIcon;
+            setOpen(false);
             document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
         });
     });

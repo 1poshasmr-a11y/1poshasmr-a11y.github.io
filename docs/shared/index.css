@@ -390,6 +390,13 @@ textarea.form-control { resize: vertical; min-height: 120px; }
 }
 .mobile-menu-btn:hover { background: rgba(255,255,255,0.1); }
 
+/* The button holds a brand mark and a close glyph; aria-expanded decides
+   which one shows, so no script needs to rewrite the button's contents. */
+.mobile-menu-btn .menu-icon { height: 30px; width: auto; }
+.mobile-menu-btn .menu-close { font-size: 1.5rem; line-height: 1; display: none; }
+.mobile-menu-btn[aria-expanded="true"] .menu-icon { display: none; }
+.mobile-menu-btn[aria-expanded="true"] .menu-close { display: inline; }
+
 /* ── App Root ── */
 #app-root {
   margin-top: var(--nav-height);
