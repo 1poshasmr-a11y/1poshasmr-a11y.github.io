@@ -6,7 +6,7 @@ export const renderDashboardParts = async (root) => {
                 <a href="#/dashboard" class="btn btn-ghost" style="padding: 8px 0;">← Back to Dashboard</a>
             </div>
             
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 30px;">
                 <h1 class="section-title" style="margin-bottom: 0;">Parts Inventory Management</h1>
                 <button class="btn btn-primary" onclick="alert('Feature coming soon')">➕ Add Part</button>
             </div>

@@ -7,9 +7,15 @@ export const renderEquipmentBrowser = async (root) => {
         <div class="container section">
             <h1 class="section-title">Equipment Inventory</h1>
             
+            <button id="filtersToggle" class="btn btn-outline filters-toggle" aria-expanded="false" aria-controls="filtersPanel">
+                <span>Filters</span>
+                <span id="filterCount" class="filter-count"></span>
+                <span class="filters-chevron">▾</span>
+            </button>
+
             <div class="equipment-layout">
                 <!-- Filters Sidebar -->
-                <aside class="filters-sidebar glass-card">
+                <aside id="filtersPanel" class="filters-sidebar glass-card">
                     <h3 style="margin-bottom: 20px;">Filters</h3>
                     
                     <div class="form-group">
@@ -84,9 +90,36 @@ export const renderEquipmentBrowser = async (root) => {
                 grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
                 gap: 20px;
             }
+            .filters-toggle { display: none; }
+
             @media (max-width: 900px) {
                 .equipment-layout { grid-template-columns: 1fr; }
                 .filters-sidebar { position: static; }
+
+                /* Collapsed by default on a phone: a full screen of filter
+                   controls before the first machine is the wrong first view. */
+                .filters-toggle {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    width: 100%;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                }
+                .filters-chevron { transition: transform var(--transition); }
+                .filters-toggle[aria-expanded="true"] .filters-chevron { transform: rotate(180deg); }
+                .filter-count {
+                    background: var(--case-red);
+                    color: #fff;
+                    border-radius: 999px;
+                    min-width: 20px;
+                    padding: 0 6px;
+                    font-size: 0.78rem;
+                    line-height: 20px;
+                }
+                .filter-count:empty { display: none; }
+                .filters-sidebar { display: none; }
+                .filters-sidebar.open { display: block; }
             }
         </style>
 
@@ -193,9 +226,33 @@ export const renderEquipmentBrowser = async (root) => {
     };
     seedFromUrl();
 
+    // Filter panel toggle (phones only; the button is hidden above 900px)
+    const toggle = document.getElementById('filtersToggle');
+    const panel = document.getElementById('filtersPanel');
+    toggle.addEventListener('click', () => {
+        const open = panel.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(open));
+    });
+
+    // Badge shows how many filters are narrowing the results
+    const updateCount = () => {
+        const active = ['searchInput', 'categoryFilter', 'brandFilter', 'conditionFilter']
+            .filter(id => document.getElementById(id).value).length;
+        document.getElementById('filterCount').textContent = active || '';
+    };
+    updateCount();   // reflect anything seeded from the URL
+
     // Bind events
-    document.getElementById('applyFiltersBtn').addEventListener('click', fetchAndRender);
+    document.getElementById('applyFiltersBtn').addEventListener('click', () => {
+        fetchAndRender();
+        if (window.innerWidth <= 900) {
+            panel.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        }
+    });
     document.getElementById('sortSelect').addEventListener('change', fetchAndRender);
+    ['searchInput','categoryFilter','brandFilter','conditionFilter']
+        .forEach(id => document.getElementById(id).addEventListener('change', updateCount));
     document.getElementById('categoryFilter').addEventListener('change', fetchAndRender);
     document.getElementById('brandFilter').addEventListener('change', fetchAndRender);
     document.getElementById('conditionFilter').addEventListener('change', fetchAndRender);

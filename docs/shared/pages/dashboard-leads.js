@@ -6,7 +6,7 @@ export const renderDashboardLeads = async (root) => {
                 <a href="#/dashboard" class="btn btn-ghost" style="padding: 8px 0;">← Back to Dashboard</a>
             </div>
             
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 30px;">
                 <h1 class="section-title" style="margin-bottom: 0;">Customer Leads & Quotes</h1>
                 <div style="display: flex; gap: 10px;">
                     <button class="btn btn-outline" style="padding: 8px 16px;">Export CSV</button>
